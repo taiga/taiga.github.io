@@ -10,7 +10,7 @@
       dataType: tableau.dataTypeEnum.float
     }, {
       id: 'Discount',
-      dataType: tableau.dataTypeEnum.string
+      dataType: tableau.dataTypeEnum.float
     }];
     var tableSchema = {
       id: 'earthquakeFeed',

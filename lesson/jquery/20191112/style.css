@@ -1,0 +1,27 @@
+.card--container {
+  width: calc(100vw - 20em);
+  margin: 10em auto;
+}
+
+.card-header {
+  text-align: right;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.list-group-item--active {
+  background-color: #fcc;
+}
+
+.list-label {
+  width: 100%;
+  user-select: none;
+  cursor: pointer;
+}
+
+.list-label__checkbox {
+  margin-right: 0.5em;
+}
